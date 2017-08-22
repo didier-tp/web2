@@ -1,0 +1,53 @@
+<html>
+<link rel="stylesheet" href="css/style.css" />
+
+<head>
+    <title>Index-</title>
+    <meta name="description" content="index" />
+</head>
+
+<body>
+    <div id="entete"> <a href="index.html">Index</a><br/></div>
+    <h1>Liste des vols</h1>
+    <form action="" method="get">
+
+        <label for="depart">Ville de départ:</label>
+        <select type="text" id="depart">
+            <option value="Paris">Paris</option>
+            <option value="Toulouse">Toulouse</option>
+        </select>
+        <br/>
+        <label for="arrivee">Ville d'arrivée:</label>
+        <select type="text" id="arrivee">
+            <option value="Toulouse">Toulouse</option>
+            <option value="Paris">Paris</option>
+        </select>
+        <br/>
+        <label for="date">Date de départ:</label>
+        <input type="date" id="date">
+        <br/>
+        <input type="submit" value="Rechercher" />
+        <br/><br/>
+        <h2>Résultats</h2>
+        <br/>
+        <table border="1">
+            <tr>
+                <th>Départ</th>
+                <th>Arrivée</th>
+            </tr>
+            <tr>
+                <th>8:30</th>
+                <th>9:40</th>
+            </tr>
+            <tr>
+                <th>9:30</th>
+                <th>10:40</th>
+            </tr>
+            <tr>
+                <th>10:30</th>
+                <th>11:40</th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
