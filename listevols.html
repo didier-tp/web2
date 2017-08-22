@@ -2,12 +2,50 @@
 <link rel="stylesheet" href="css/style.css" />
 
 <head>
-    <title>Index-</title>
+    <title>Reservation</title>
     <meta name="description" content="index" />
 </head>
 
 <body>
+   <h1> Liste vols</h1>
+   <form method="GET" action="">
    
+   <label> depart: </label> <select name="depart">
+				<option>Paris</option>
+				<option>Toulouse</option>
+				<option>Bordeaux</option>
+				<option>Marseille</option>
+				</select>	
+				 <p/>
+   
+    <label> arrivee: </label> <select name="arrivee">
+				<option>Paris</option>
+				<option>Toulouse</option>
+				<option>Bordeaux</option>
+				<option>Marseille</option>
+				</select>	
+				 <p/>
+				 
+   <label> date : </label> <input id="date" type="date"/> 
+   <p/>
+   
+   <p><input type="checkbox" name="volDirect"> Vol direct uniquement </p>
+   
+   <input type="submit" value="rechercher"/> <br/>
+   
+   <p/>
+   <p/>
+   
+   <table border="2">
+	<tr> <th> depart </th> <th> arrivee </th> </tr>
+	<tr> <td> 8:30 </td> <td> 9:40 </td>  </tr>
+	<tr> <td> 10:00 </td> <td> 11:10 </td> </tr>
+	<tr> <td> 20:20 </td> <td> 22:00  </td> </tr>	
+</table>
+</body>
+</html>
+   
+
 </body>
 
 </html>
