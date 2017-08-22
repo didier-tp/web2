@@ -1,27 +1,45 @@
-/* comment in css
-   rappels des selecteurs:
-  balise { ... }
-  #id { ...}
-  .classXY { ....}
-  sel1 , sel2 , sel3 { ...}
-  balise#idPrecis { ...} 
-  balise sousBalise {  ... pour sous balise si englobee par balise } 
-*/
-#mainHeader, #mainSideMenu, #mainContent, #mainFooter { padding:1px 0;}
+body {
+    color: black;
+    background-color: darkgrey;
+}
 
-#mainHeader  {  background-color:#FF9900; text-align:center;  }
-#mainNav     {  background-color : #cccccc;  }
+input {
+    color: darkblue;
+}
 
-#mainSideMenu { float:left; width:240px; background-color:#FF3366;  overflow:auto; }
-/* margin-left de #mainContent doit etre un peu plus grand que width de #mainSideMenu flottant  */
-#mainContent { margin-left:245px; background-color:#9966FF; }
+label {
+    display: inline-block;
+    width: 8em;
+}
 
-/* clear:both; essentiel pour que #mainFooter soit toujour en dessous du element flottant #mainSideMenu 
-   et jamais sur la meme ligne */
-#mainFooter  { background-color:#669933; text-align:center; clear:both;  }
+input,
+select,
+textarea {
+    display: inline-block;
+    width: 18em;
+}
 
-article { margin:5px; background-color : #00cc00; }
-section { margin:5px; background-color : yellow; }
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: 1em;
+    margin-left: 6em;
+}
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    margin-left: 5em;
+}
 
-label { display: block; width: 150px;  float: left;}
-output {  font-weight:bold; }
+p {
+    margin: auto
+}
+
+#entete {
+    color: blue;
+    background-color: grey;
+    text-align: center;
+}
+
