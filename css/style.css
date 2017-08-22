@@ -1,0 +1,45 @@
+body {
+    color: black;
+    background-color: darkgrey;
+}
+
+input {
+    color: darkblue;
+}
+
+label {
+    display: inline-block;
+    width: 8em;
+}
+
+input,
+select,
+textarea {
+    display: inline-block;
+    width: 18em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: 1em;
+    margin-left: 6em;
+}
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    margin-left: 5em;
+}
+
+p {
+    margin: auto
+}
+
+#entete {
+    color: blue;
+    background-color: grey;
+    text-align: center;
+}
+
