@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 input {
@@ -25,6 +25,7 @@ input[type="checkbox"] {
     width: 1em;
     margin-left: 6em;
 }
+
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -40,6 +41,4 @@ p {
 #entete {
     color: blue;
     background-color: grey;
-    text-align: center;
 }
-
