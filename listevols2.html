@@ -4,9 +4,11 @@
 <head>
     <title>Index-</title>
     <meta name="description" content="index" />
+    <script src="js/ajax_util.js"></script>
+    <script src="js/exemple_ajax_fx.js"></script>
 </head>
 
-<body>
+<body onload="init()">
     <div id="entete"> <a href="index.html">Index</a><br/></div>
     <h1>Liste des vols</h1>
     <form action="" method="get">
@@ -26,16 +28,17 @@
         <label for="date">Date de départ:</label>
         <input type="date" id="date">
         <br/>
-        <input type="submit" value="Rechercher" id="btnFind"/>
+        <input type="submit" value="Rechercher" id="btnFind" />
         <br/><br/>
         <h2>Résultats</h2>
+        <p id="idMsg" ></p>
         <br/>
         <table border="1" id="tabProduits">
             <tr>
                 <th>Départ</th>
                 <th>Arrivée</th>
             </tr>
-            
+
         </table>
     </form>
 </body>
