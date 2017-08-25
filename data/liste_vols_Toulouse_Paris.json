@@ -1,0 +1,5 @@
+[
+{ "id": 10 , "nom" : "cahier numerique" , "prix" : 25.60 , "couleur" : "black"},
+{ "id": 20 , "nom" : "stylo USB" , "prix" : 12.90 , "couleur" : "green"},
+{ "id": 30 , "nom" : "prise secteur sans fil" , "prix" : 31.80 , "couleur" : "orange"}
+]

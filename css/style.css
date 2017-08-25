@@ -40,5 +40,15 @@ p {
 
 #entete {
     color: blue;
-    background-color: grey;
+    background-color: aliceblue;
+}
+
+#captcha {
+    
+    width: auto;
+}
+
+#labelcaptcha {
+    
+    width: auto;
 }
