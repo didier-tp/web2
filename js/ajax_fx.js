@@ -15,7 +15,9 @@ function rechercherViaAjax(event) {
     //mais pas google chrome (qui veut absolument par defaut une url de depart en http)
     var suffixe_url = document.getElementById("depart").value + "_" + document.getElementById("arrivee").value;
     //var ajax_url = "./data/produits_nouveaux.json";
+
     var ajax_url = "./data/liste_vols_" + suffixe_url + ".json";
+    console.log(ajax_url);
     makeAjaxRequest(ajax_url, readDataCallBack);
 }
 
@@ -24,8 +26,10 @@ function readDataCallBack(sData) {
     var myMsg = document.getElementById('idMsg');
     // var myMsg=document.querySelector('#idMsg'); 
     myMsg.innerHTML = sData;
+    console.log(sData);
     //sData est ici une string JSON (tableau de produits):
     var listeProdJs = JSON.parse(sData);
+console.log(listeProdJs);
     supprimerLignesDeDonneesDansTableau();
     for (i in listeProdJs) {
         ajouterLigneDansTableau(listeProdJs[i]);
@@ -45,6 +49,6 @@ function supprimerLignesDeDonneesDansTableau() {
 
 function ajouterLigneDansTableau(prod) {
     var newTr = tabProduits.insertRow(-1);
-    (newTr.insertCell(0)).innerHTML = prod.id;
-    (newTr.insertCell(1)).innerHTML = prod.nom;
+    (newTr.insertCell(0)).innerHTML = prod.heure_depart;
+    (newTr.insertCell(1)).innerHTML = prod.heure_arrivee;
 }

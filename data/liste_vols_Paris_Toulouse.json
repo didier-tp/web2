@@ -1,5 +1,5 @@
 [
-{ "depart": "Paris" , "arrivee" : "Toulouse" , "date" : "30/04" },
-{ "depart": "Paris" , "arrivee" : "Toulouse" , "date" : "14/07"},
-{ "depart": "Paris" , "arrivee" : "Toulouse" , "date" : "05/10"},
+{ "heure_depart": "08:20" , "heure_arrivee" : "09:40" },
+{ "heure_depart": "09:20" , "heure_arrivee" : "10:40" },
+{ "heure_depart": "10:20" , "heure_arrivee" : "11:40" }
 ]
